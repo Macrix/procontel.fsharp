@@ -3,6 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>PctML</PackageId>
+    <Version>0.0.0.0</Version>
+    <Authors>PCT++ Team</Authors>
+    <Owners>Macrix - Technology Group</Owners>
+    <ProjectUrl>http://macrix.eu</ProjectUrl>
+    <IconUrl>https://macrix.eu/assets/img/favicon/favicon-32x32.png</IconUrl>
+    <Copyright>Copyright (c) 2006-2020 Macrix - Technology Group</Copyright>
+    <Product>ProconTel ML</Product>
+    <Description>ProconTEL fsharp endpoints.</Description>
+    <PackageTags>PCT++, SDK, SAMPLE, F#</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
