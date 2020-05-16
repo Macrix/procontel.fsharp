@@ -23,7 +23,7 @@ jobs:
       run: dotnet restore -s https://nexus.macrix.eu/repository/nuget/ -s https://api.nuget.org/v3/index.json --force --no-cache
       working-directory: ${{env.working-directory}}
     - name: Build
-      run: publish -c Release /p:Version=${{env.version}} --no-restore
+      run: dotnet publish -c Release /p:Version=${{env.version}} --no-restore
       working-directory: ${{env.working-directory}}
     - name: Push nuget
       run: dotnet nuget push **/*.nupkg
