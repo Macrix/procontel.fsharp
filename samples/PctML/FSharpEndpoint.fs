@@ -9,6 +9,7 @@ open System.Reflection
     interface ProconTel.Sdk.Builders.IEndpointLifeTimeCycle with
       member this.InitializeAsync() = 
         logger.Information("F# start, version: " + Assembly.GetExecutingAssembly().GetName().Version.ToString())
+        logger.Information("F# demo")
         Task.CompletedTask
       member this.TerminateAsync() = 
         logger.Information "F# done"
